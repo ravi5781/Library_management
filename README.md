@@ -28,14 +28,7 @@ A simple **Library Management System** built using **Java** and **MySQL**, desig
 
 ## 🗃️ Project Structure
 
-LibraryManagementSystem/
-│
-├── DBConnection.java # Handles DB connection
-├── Book.java # Book model
-├── Member.java # Member model
-├── LibraryManager.java # Main menu and logic
-├── SQL Script.txt # MySQL table creation script
-└── README.md # Project documentation
+![image](https://github.com/user-attachments/assets/d32c7c4d-c420-4565-9d34-fb78b24a8005)
 
 
 ---
