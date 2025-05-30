@@ -67,9 +67,13 @@ CREATE TABLE issued_books (
     FOREIGN KEY (member_id) REFERENCES members(member_id)
 );
 
+---
 
+## 📦 Update MySQL Password
+2 Update your MySQL credentials in DBConnection.java:
 
-#2 Update your MySQL credentials in DBConnection.java:
+```sql
+
 
 java
 Copy
@@ -78,8 +82,8 @@ return DriverManager.getConnection(
     "jdbc:mysql://localhost:3306/library_db", "your_username", "your_password");
 
 
-
-#3 Add mysql-connector-java JAR to your build path.
+## add Connector 
+3 Add mysql-connector-java JAR to your build path.
 
 
 📌 Notes
